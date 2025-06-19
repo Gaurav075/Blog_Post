@@ -1,0 +1,92 @@
+/* Custom ReactQuill Styles */
+
+/* Fix editor container height and overflow */
+.ql-container {
+  height: calc(100% - 42px) !important;
+  overflow-y: auto !important;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+/* Fix editor content area */
+.ql-editor {
+  height: 100% !important;
+  max-height: 350px !important;
+  overflow-y: auto !important;
+  padding: 16px !important;
+  line-height: 1.6 !important;
+  font-size: 14px !important;
+  color: #2d5a47 !important;
+}
+
+/* Fix toolbar styling */
+.ql-toolbar {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  background-color: #f9fafb !important;
+}
+
+/* Ensure content doesn't overflow */
+.ql-editor p, 
+.ql-editor h1, 
+.ql-editor h2, 
+.ql-editor h3, 
+.ql-editor ul, 
+.ql-editor ol {
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  max-width: 100% !important;
+}
+
+/* Fix scrollbar styling */
+.ql-editor::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ql-editor::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.ql-editor::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.ql-editor::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Fix placeholder text */
+.ql-editor.ql-blank::before {
+  color: #3d6a57 !important;
+  font-style: normal !important;
+  left: 16px !important;
+  right: 16px !important;
+}
+
+/* Ensure proper spacing */
+.ql-snow {
+  border-radius: 8px !important;
+  border: 1px solid #d1d5db !important;
+}
+
+/* Fix focus state */
+.ql-snow:focus-within {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ql-editor {
+    max-height: 250px !important;
+    padding: 12px !important;
+    font-size: 13px !important;
+  }
+  
+  .ql-toolbar {
+    padding: 8px !important;
+  }
+}
