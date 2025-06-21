@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ["https://scaling-goldfish-66q7wgjxx692rrg4-5173.app.github.dev"], 
+  origin: ["https://scaling-goldfish-66q7wgjxx692rrg4-5173.app.github.dev","https://blog-post-theta-three.vercel.app"], 
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
