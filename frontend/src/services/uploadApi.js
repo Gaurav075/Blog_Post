@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://scaling-goldfish-66q7wgjxx692rrg4-3001.app.github.dev/api';
+const API_URL = 'https://blog-post-a2ea.onrender.com/api';
 
 // Upload image to Cloudinary
 export const uploadImage = async (file) => {
