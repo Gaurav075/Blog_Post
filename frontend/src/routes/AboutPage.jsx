@@ -17,7 +17,7 @@ const AboutPage = () => {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-3 bg-blue-800/10 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <span className="w-2 h-2 bg-blue-800 rounded-full animate-pulse"></span>
-              Welcome to Beyond Ink
+              Welcome to Inkspire
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-forest-green mb-6 leading-tight">
               Where Stories Come to
@@ -49,7 +49,7 @@ const AboutPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-forest-green mb-6">Our Mission 🎯</h2>
           <div className="space-y-6 text-lg text-forest-green leading-relaxed">
             <p>
-              Beyond Ink is more than just a blogging platform—it's a <span className="font-semibold text-blue-800">digital sanctuary</span> where writers,
+              Inkspire is more than just a blogging platform—it's a <span className="font-semibold text-blue-800">digital sanctuary</span> where writers,
               thinkers, and creators come together to share their unique perspectives with the world.
             </p>
             <p>
@@ -135,9 +135,9 @@ const AboutPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/register">
-              <button className="bg-blue-800 text-white px-8 py-4 rounded-xl hover:bg-blue-900 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              {/* <button className="bg-blue-800 text-white px-8 py-4 rounded-xl hover:bg-blue-900 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 Join the Community
-              </button>
+              </button> */}
             </Link>
             <Link to="/posts">
               <button className="border-2 border-blue-800 text-blue-800 px-8 py-4 rounded-xl hover:bg-blue-800 hover:text-white transition-all duration-200 font-medium">
