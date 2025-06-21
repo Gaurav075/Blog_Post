@@ -40,11 +40,10 @@ const PORT = process.env.PORT || 3001;
 connectDB();
 
 // For Vercel deployment
-if (process.env.NODE_ENV !== 'production') {
-  app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-  });
-}
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+
 
 // Export the app for Vercel
 export default app;

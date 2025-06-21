@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Ensure API_URL always ends with /api
 const getApiUrl = () => {
-  const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+  const baseUrl = import.meta.env.VITE_API_URL || 'https://scaling-goldfish-66q7wgjxx692rrg4-3001.app.github.dev/api';
   // If the URL doesn't end with /api, add it
   if (!baseUrl.endsWith('/api')) {
     return baseUrl + '/api';

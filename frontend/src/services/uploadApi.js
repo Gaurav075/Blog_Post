@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://scaling-goldfish-66q7wgjxx692rrg4-3001.app.github.dev/api';
 
 // Upload image to Cloudinary
 export const uploadImage = async (file) => {

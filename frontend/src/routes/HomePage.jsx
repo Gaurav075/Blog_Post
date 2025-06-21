@@ -18,14 +18,14 @@ const HomePage = ({ user }) => {
         {/* titles */}
         <div className="">
           <h1 className="text-forest-green text-3xl md:text-5xl font-bold">
-            Designing the Future, One Pixel at a Time 🎨
+            Where Every Pixel Builds the Future 🎨
           </h1>
           <p className="mt-5 pr-2 text-md md:text-xl text-forest-green">
-            We’re thrilled to have you here! This space is all about exploring
-            the endless possibilities of the web. Whether you are looking to
-            learn something new or just get inspired, we’ve got you covered.
+           Hey there!
+            Welcome to your new favorite corner of the internet. Whether you're here to level up your skills, get inspired, or just nerd out over cool web stuff — you’re in the right place.
+            We’re all about learning, creating, and having a blast while doing it.
             <br />
-            Dive in and let’s make the web more fun together!
+            So dive in, explore, and let’s make the web a whole lot more awesome — together. 💻
           </p>
         </div>
         {/* animatedButton */}

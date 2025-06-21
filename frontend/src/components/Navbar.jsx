@@ -57,7 +57,7 @@ const Navbar = ({ user, logout }) => {
           w={32}
           h={32}
         />
-        <span>Beyond Ink.</span>
+        <span>Inkspire</span>
       </Link>
 
       {/* MOBILE MENU */}
