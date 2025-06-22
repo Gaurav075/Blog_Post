@@ -8,7 +8,7 @@ This project implements a fully functional blogging platform with secure authent
 ## 📸 Preview
 
 <!-- Add your project screenshot or GIF below -->
-![Blog App Screenshot](./assets/preview.png)
+![Blog App Screenshot](./frontend/public/preview.png)
 
 ---
 
