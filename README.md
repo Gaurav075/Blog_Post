@@ -5,6 +5,10 @@ This project implements a fully functional blogging platform with secure authent
 
 ---
 
+## 🔗 Live Demo
+
+👉 [Click Here to View the Live App](https://blog-post-theta-three.vercel.app/)
+
 ## 📸 Preview
 
 <!-- Add your project screenshot or GIF below -->
@@ -32,24 +36,5 @@ This project implements a fully functional blogging platform with secure authent
 
 ---
 
-## 📂 Project Structure
-
-frontend/ # React frontend
-├── components/
-├── pages/
-├── services/
-├── App.js
-└── ...
-
-backend/ # Node + Express backend
-├── controllers/
-├── models/
-├── routes/
-├── middleware/
-└── server.js
-
-.env # Environment variables
-README.md
-
-🌐 Live Demo
-🔗 View Project
+🛠️ **Made with ❤️ by [Gaurav Gupta](https://www.linkedin.com/in/gaurav-gupta-097069261)**  
+📫 Reach out: officialgauravgupta3@gmail.com
